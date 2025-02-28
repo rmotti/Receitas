@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Receitas</title>
-    <link rel="icon" type="image/x-icon" href="Img/receitas.ico" />
-    <link rel="stylesheet" href="Style.css" />
-  </head>
-  <body>
-    <h1>Bem-vindo a Receitas do Rodrigo!</h1>
-    <h2>Escolha uma receita para começar:</h2>
-    <ul>
-      <li>
-        <a href="receita1.html">Bolo de Chocolate</a>
-        <ol>
-          Nosso delicioso e irresistível bolo de chocolate, especialidade doce
-          da casa!
-        </ol>
-      </li>
-      <li>
-        <a href="receita2.html">Pizza Margherita</a>
-        <ol>Carro chefe dos salgados, nossa famosa piza!</ol>
-      </li>
-    </ul>
-  </body>
+    <link rel="icon" type="image/x-icon" href="Img/receitas.ico">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo a Receitas do Rodrigo!</h1>
+        <h2>Escolha uma receita para começar:</h2>
+    </header>
+    <main>
+        <section class="recipes">
+            <article class="recipe-card">
+                <a href="Bolo.Html">
+                    <img src="Img/Bolo.jpeg" alt="Bolo de Chocolate">
+                    <h2>Bolo de Chocolate</h2>    
+                </a>
+            </article>
+            <article class="recipe-card">
+                <a href="Pizza.Html">
+                    <img src="Img/Pizza.jpg" alt="Pizza Margherita">
+                    <h2>Pizza Margherita</h2>    
+                </a>
+            </article>
+            <article class="recipe-card">
+              <a href="Hamburguer.Html">
+                  <img src="Img/Hamburguer.jpeg" alt="Hambúrguer">
+                  <h2>Hambúrguer Artesanal</h2>    
+              </a>
+          </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Receitas do Rodrigo. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
